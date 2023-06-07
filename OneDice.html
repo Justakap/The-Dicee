@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>The Dicee</title>
+  <link rel="icon" href="favicon.ico"> 
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400&family=Quicksand:wght@500;600;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <audio id="dice2" src="DiceRoll.mp3" ></audio>
+  <div class="container">
+    <h6>The Dicee</h6>
+    <h1 class="computerName"></h1>
+
+    <div class="dice">
+      <p> </p>
+      <img class="img1" src="images/dice1.png" onclick="document.getElementById('dice2').play();OneDice()">
+    </div>
+
+    <div class="dice">
+      <p> </p>
+
+    </div>
+  </div>
+  <input class="refreshButton" type="button" value="🎲 LET'S ROLL 🎲" onclick="document.getElementById('dice2').play();OneDice()">
+  <!-- <input class="refreshButton" type="button" value="🎲 LET'S ROLL 🎲" onclick="OneDice()"> -->
+ 
+  <button onclick="toggleMute()" type="button" class="muteToggle" id="muter">Mute</button>
+ 
+
+
+
+
+  <script></script>
+  <script src="index.js"></script>
+</body>
+
+
+
+<footer>
+
+  © www 🎲 Mark Digital 🎲 com <br>
+
+</footer>
+
+</html>

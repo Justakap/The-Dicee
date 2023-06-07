@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400&family=Quicksand:wght@500;600;700&family=Ubuntu:wght@700&display=swap");
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #393e46;
+  font-family: "Quicksand", sans-serif;
+}
+
+.refreshButton {
+  margin-left: 30%;
+  width: 40%;
+  font-size: 30px;
+  padding: 15px 50px 15px;
+  border-radius: 10px;
+  font-family: "Lobster", cursive;
+  background-color: #4ecca3;
+  font-weight: bold;
+  color: black;
+}
+.refreshButton:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.homeChooser {
+  margin-left: 23%;
+  width: 53%;
+  font-size: 30px;
+  padding: 15px 50px 15px;
+  border-radius: 10px;
+  font-family: "Quicksand", sans-serif;
+  background-color: #4ecca3;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+  margin-bottom: 5%;
+}
+
+.homeChooser:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#diceChooseOne {
+  /* font-family: 'lobster', cursive ; */
+  /* font-family: 'Ubuntu', sans-serif; */
+  color: black;
+  /* text-shadow: 1px 1px#393E46 ; */
+  /* text-shadow: 5px; */
+}
+#diceChooseTwo {
+  /* font-family: 'lobster', cursive ; */
+  /* font-family: 'Ubuntu', sans-serif; */
+  color: black;
+}
+#diceChooseThree {
+  /* font-family: 'lobster', cursive; */
+  color: black;
+  margin-left: 23%;
+  width: 53%;
+}
+.gameChooser {
+  margin-left: 30%;
+  width: 40%;
+  font-size: 30px;
+  padding: 15px 50px 15px;
+  border-radius: 10px;
+
+  /* font-family: 'lobster', cursive; */
+  font-family: "Ubuntu", sans-serif;
+  background-color: #4ecca3;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+  margin-bottom: 5%;
+}
+.gameChooser:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.addName {
+  margin-left: 30%;
+  width: 40%;
+  font-size: 20px;
+  padding: 15px 50px 15px;
+  border-radius: 10px;
+  font-family: "Quicksand", sans-serif;
+  background-color: #4ecca3;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+  margin-bottom: 5%;
+}
+
+#addName-btn:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+::placeholder {
+  color: black;
+  opacity: 0.65;
+  font-family: "Quicksand", sans-serif;
+}
+
+.img1:hover {
+  cursor: pointer;
+  opacity: 0.81;
+}
+.img2:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ecca3;
+}
+
+.homeTitle {
+  /* margin-left: 25%; */
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+h2 {
+  /* margin: 10px; */
+  font-family: "Quicksand", sans-serif;
+  text-shadow: 5px 0 #232931;
+  font-size: 3rem;
+  color: #ffffff;
+  /* margin-left: 32%;
+   */
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+
+  font-family: "Quicksand", sans-serif;
+}
+/* single player html style  */
+.compName {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ecca3;
+}
+h6 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ecca3;
+}
+.username {
+  padding: 5px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: #232931;
+  background-color: #4ecca3;
+  color: black;
+  border-style: solid;
+  border-radius: 14px;
+  font-weight: bold;
+}
+#details {
+  font-family: "Quicksand", sans-serif;
+}
+#addName-btn {
+  font-family: "Quicksand", sans-serif;
+  color: black;
+  font-size: 21px;
+  background: #4ecca3;
+  padding: 10px 20px 10px 20px;
+  /* border: solid #000000 2px; */
+  text-decoration: none;
+  width: 35%;
+  margin-left: 33.6%;
+}
+
+#play {
+  width: 20%;
+  height: 20px;
+}
+#pause {
+  width: 20%;
+  height: 20px;
+}
+.muteToggle {
+  display: flex;
+  position: absolute;
+  right: 2%;
+  top: 3%;
+  background-color: #4ecca3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 5%;
+  cursor: pointer;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 700;
+  margin: auto;
+  font-family: "Ubuntu", sans-serif;
+}

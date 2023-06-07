@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>The Dicee</title>
+  <link rel="icon" href="favicon.ico"> 
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400&family=Quicksand:wght@500;600;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <audio id="dice2" src="Dicefinal.mp3" ></audio>
+  <div class="container">
+    <h1>The Dicee</h1>
+
+    <div class="dice">
+      <p id="player1">Player 1</p>
+      <img class="img1" src="images/dice1.png"onclick="document.getElementById('dice2').play();SinglePlayer()">
+    </div>
+
+    <div class="dice">
+      <p>Computer</p>
+      <img class="img2" src="images/dice1.png" onclick="document.getElementById('dice2').play();SinglePlayer()" >
+    </div>
+  </div>
+  <input class="refreshButton" type="button" value="🎲 LET'S ROLL 🎲" onclick="document.getElementById('dice2').play();SinglePlayer()">
+  <button onclick="toggleMute()" type="button" class="muteToggle" id="muter">Mute</button>
+  <script>
+    var FirstName=  localStorage.getItem('first-name');
+     var LastName = localStorage.getItem('last-name');
+   
+     document.getElementById("player1").innerHTML=FirstName;
+    //  document.getElementById("player2").innerHTML=LastName;
+   </script>
+
+  <script src="index.js"></script>
+
+</body>
+
+
+
+<footer>
+
+  © www 🎲 Mark Digital 🎲 com <br>
+  
+</footer>
+
+</html>
